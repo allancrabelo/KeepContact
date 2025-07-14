@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KeepContact</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo" aria-label="Phone icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.62 10.79a15.466 15.466 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.2.48 2.5.75 3.85.75a1 1 0 011 1v3.25a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.25a1 1 0 011 1c0 1.35.27 2.65.75 3.85a1 1 0 01-.21 1.11l-2.17 2.17z"/>
+      </svg>
+    </div>
+
+    <h1>KeepContact</h1>
+
+    <form id="contact-form" class="header-row" autocomplete="off">
+      <input type="text" name="name" id="name" placeholder="Name" required maxlength="30" />
+      <input type="tel" name="phone" id="phone" placeholder="Phone Number" required pattern="[0-9+ ]{6,15}" maxlength="15" />
+      <button type="submit" class="add-btn">+ Add New</button>
+    </form>
+
+    <div class="contact-list" id="contact-list">
+      <div class="contact-item">
+        <div class="contact-info">
+          <span class="name">Lorem Ipsum</span>
+          <span class="phone">09123456789</span>
+        </div>
+        <button class="btn-delete" aria-label="Delete Lorem Ipsum contact">×</button>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-info">
+          <span class="name">John Doe</span>
+          <span class="phone">09121212345</span>
+        </div>
+        <button class="btn-delete" aria-label="Delete John Doe contact">×</button>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-info">
+          <span class="name">Jane Doe</span>
+          <span class="phone">09452341234</span>
+        </div>
+        <button class="btn-delete" aria-label="Delete Jane Doe contact">×</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
