@@ -82,6 +82,7 @@ Open `index.html` in your browser.
 Start adding contacts and experience fast, distraction-free contact management.
 
 ## 🚀 Organize Your Contacts Effortlessly with KeepContact
-Eliminate clutter, centralize your contact list, and bring structure to your personal or professional relationships — all through an elegant, fast, and responsive web app.
+
+Eliminate clutter, centralize your contact list, and bring structure to your personal or professional relationships. All through an elegant, fast, and responsive web app.
 ---
 Tech Stack: `JavaScript`, `HTML`, `CSS`.
